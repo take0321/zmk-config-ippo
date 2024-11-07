@@ -122,7 +122,7 @@
         windows_default_layer {
             display-name = "Windows";
             bindings = <
-&kp Q        &kp W  &kp F              &kp P              &kp G    &kp J      &kp L     &kp U            &kp Y    &kp BSPC
+&studio_unlock        &kp W  &kp F              &kp P              &kp G    &kp J      &kp L     &kp U            &kp Y    &kp BSPC
 &kp A        &kp R  &kp S              &kp T              &kp D    &kp H      &kp N     &kp E            &kp I    &kp O
 &bm LSHFT Z  &kp X  &kp C              &kp V              &kp B    &kp K      &kp M     &kp COMMA        &kp DOT  &bm RSHFT FSLH
             >;
