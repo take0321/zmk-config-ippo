@@ -113,7 +113,7 @@
         mac_default_layer {
             display-name = "Mac";
             bindings = <
-&studio_unlock    &kp W  &kp F          &kp P          &kp G    &kp J      &kp L     &kp U           &kp Y    &kp BSPC 
+&bt BT_CLR   &bt BT_SEL 0          &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &kp U           &kp Y    &kp BSPC  &kp O 
 &kp A        &kp R  &kp S          &kp T          &kp D    &kp H      &kp N     &kp E           &kp I    &kp O 
 &bm LSHFT Z  &kp X  &kp C          &kp V          &kp B    &kp K      &kp M     &kp COMMA       &kp DOT  &bm RSHFT FSLH
             >;
