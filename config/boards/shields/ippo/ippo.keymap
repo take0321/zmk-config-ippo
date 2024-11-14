@@ -13,7 +13,7 @@
 // Behavior Overrides
 
 &lt {
-    tapping-term-ms = <150>;
+    tapping-term-ms = <180>;
     flavor = "hold-preferred";
 };
 
