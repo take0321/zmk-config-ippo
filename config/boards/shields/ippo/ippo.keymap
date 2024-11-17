@@ -196,18 +196,18 @@
         gaming_layer {
             display-name = "Gaming";
             bindings = <
-&trans  &trans  &trans    &kp LANGUAGE_2  &kp LANGUAGE_1   &trans    &trans  &trans  &trans  &kp PRINTSCREEN
-&trans  &trans  &kp BSPC  &kp ENTER  &kp DELETE  &trans    &trans  &trans  &trans  &studio_unlock            
-&trans  &trans  &trans    &trans     &kp SPACE   &trans    &trans  &trans  &trans  &trans         
+&trans    &kp ESC  &kp TAB   &kp LANGUAGE_2   &kp LANGUAGE_1    &trans    &trans  &trans  &trans  &kp PRINTSCREEN
+&trans    &kp RET  &kp BSPC  &kp SPACE        &kp DELETE   &kp A     &kp A   &kp A   &kp A   &kp A
+&kp CLCK  &trans   &kp TAB   &kp LC(LS(TAB))  &kp LC(TAB)  &trans    &trans  &trans  &trans  &trans
             >;
         };
 
         code_layer {
             display-name = "Code";
             bindings = <
-&trans    &kp UP    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans    
-&kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans      &trans   &trans  &trans   &trans
-&trans    &trans    &trans     &trans  &trans   &trans  &trans   &trans  &trans   &studio_unlock     
+&kp HOME  &mo 4   &kp PAGE_DOWN  &kp UP            &kp PAGE_UP  &trans    &trans  &trans  &trans  &trans
+&kp END   &trans  &kp LEFT       &kp DOWN          &kp RIGHT    &trans    &trans  &trans  &trans  &trans
+&trans    &trans  &trans         &kp LS(LG(LEFT))  &kp LA(I)    &trans    &trans  &trans  &trans  &trans 
             >;
         };
 
