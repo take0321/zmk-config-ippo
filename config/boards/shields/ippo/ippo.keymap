@@ -196,7 +196,7 @@
         gaming_layer {
             display-name = "Gaming";
             bindings = <
-&trans  &trans  &trans    &trans     &trans      &trans    &trans  &trans  &trans  &kp PRINTSCREEN
+&trans  &trans  &trans    &kp LANGUAGE_2  &kp LANGUAGE_1   &trans    &trans  &trans  &trans  &kp PRINTSCREEN
 &trans  &trans  &kp BSPC  &kp ENTER  &kp DELETE  &trans    &trans  &trans  &trans  &studio_unlock            
 &trans  &trans  &trans    &trans     &kp SPACE   &trans    &trans  &trans  &trans  &trans         
             >;
