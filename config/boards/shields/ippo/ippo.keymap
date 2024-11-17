@@ -165,6 +165,11 @@
             bindings = <&kp C_PLAY_PAUSE>;
             key-positions = <13 23>;
         };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <11 12>;
+        };
     };
     
     keymap {
