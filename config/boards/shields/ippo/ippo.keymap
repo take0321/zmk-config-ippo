@@ -167,9 +167,10 @@
             key-positions = <10 11>;
         };
 
-        minus {
+        mainasu {
             bindings = <&kp MINUS>;
-            key-positions = <8 9> ;
+            key-positions = <8 9>;
+        };
     };
     
     keymap {
