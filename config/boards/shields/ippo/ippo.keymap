@@ -167,7 +167,7 @@
             key-positions = <10 11>;
         };
 
-        MINUS {
+        minus {
             bindings = <&kp MINUS>;
             key-positions = <8 9> ;
     };
