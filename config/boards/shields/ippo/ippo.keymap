@@ -201,7 +201,7 @@
         code_layer {
             display-name = "Code";
             bindings = <
-&kp HOME  &mo 4   &kp PAGE_DOWN  &kp UP            &kp PAGE_UP  &trans    &trans  &trans  &trans  &trans
+&kp HOME  &mo 4   &kp PAGE_DOWN  &kp UP            &kp PAGE_UP  &trans    &trans  &trans  &mo 4  &trans
 &kp END   &trans  &kp LEFT       &kp DOWN          &kp RIGHT    &trans    &trans  &trans  &trans  &trans
 &trans    &trans  &trans         &kp LS(LG(LEFT))  &kp LA(I)    &trans    &trans  &trans  &trans  &trans 
             >;
