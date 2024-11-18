@@ -166,6 +166,10 @@
             bindings = <&kp ENTER>;
             key-positions = <10 11>;
         };
+
+        MINUS {
+            bindings = <&kp MINUS>;
+            key-positions = <8 9> ;
     };
     
     keymap {
