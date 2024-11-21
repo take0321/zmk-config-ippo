@@ -221,9 +221,9 @@
         code_layer {
             display-name = "Code";
             bindings = <
- &trans   &kp LS(LG(LEFT))  &kp LA(I)   &kp HOME  &kp PAGE_UP                &trans  &trans  &trans  &trans  &trans
- &trans   &kp LS(LG(M))     &kp DOWN    &kp END   &kp PAGE_DOWN              &trans  &trans  &trans  &trans  &trans
- &mo 4    &trans            &trans      &trans    &trans                     &trans  &trans  &trans  &trans  &mo 4 
+ &trans   &kp LS(LG(LEFT))    &kp LA(I)   &kp HOME  &kp PAGE_UP                &trans  &trans  &trans  &trans  &trans
+ &trans   &kp LC(LS(COMMA))   &kp DOWN    &kp END   &kp PAGE_DOWN              &trans  &trans  &trans  &trans  &trans
+ &mo 4    &trans              &trans      &trans    &trans                     &trans  &trans  &trans  &trans  &mo 4 
             >;
         };
 
