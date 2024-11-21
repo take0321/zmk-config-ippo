@@ -221,17 +221,17 @@
         code_layer {
             display-name = "Code";
             bindings = <
- &trans  &kp LS(LG(LEFT))  &kp LA(I)    &kp PAGE_DOWN   &kp PAGE_UP    &trans  &trans  &trans  &trans  &trans
- &trans      &kp LEFT       &kp DOWN    &kp END      &kp HOME    &trans    &trans  &trans  &trans  &trans
- &mo 4   &trans  &trans    &trans    &trans    &trans    &trans  &trans  &trans  &mo 4 
+ &trans   &kp LS(LG(LEFT))  &kp LA(I)   &kp PAGE_DOWN          &kp PAGE_UP   &trans  &trans  &trans  &trans  &trans
+ &trans   &kp LEFT          &kp DOWN    &kp END                &kp HOME      &trans  &trans  &trans  &trans  &trans
+ &mo 4    &trans            &trans      &trans                 &trans        &trans  &trans  &trans  &trans  &mo 4 
             >;
         };
 
         number_layer {
             display-name = "Number";
             bindings = <
-&kp EXCL   &kp AT  &kp HASH  &kp DLLR  &kp PRCNT       &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 
-&kp N1     &kp N2  &kp N3    &kp N4    &kp a         &kp a   &kp N7    &kp N8        &kp N9   &bt BT_CLR_ALL
+&kp EXCL   &kp AT  &kp HASH  &kp DLLR  &kp PRCNT      &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 
+&kp N1     &kp N2  &kp N3    &kp N4    &kp A          &kp A  &kp N7    &kp N8        &kp N9   &bt BT_CLR_ALL
 &kp LSHFT  &none   &none     &none     &bootloader    &bootloader     &none     &kp COMMA     &kp DOT   &kp RSHFT
             >;
         };
