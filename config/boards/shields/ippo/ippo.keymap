@@ -108,12 +108,12 @@
 
         f5 {
             bindings = <&kp F5>;
-            key-positions = <4 14>;
+            key-positions = <4 24>;
         };
 
         f6 {
             bindings = <&kp F6>;
-            key-positions = <5 15>;
+            key-positions = <5 25>;
         };
 
         f7 {
@@ -138,7 +138,7 @@
 
         f11 {
             bindings = <&kp F11>;
-            key-positions = <10 20>;
+            key-positions = <0 20>;
         };
 
         esc {
