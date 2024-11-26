@@ -203,7 +203,7 @@
         windows_default_layer {
             display-name = "Windows";
             bindings = <
- &kp LS(PLUS)  &kp N7  &kp N8  &kp N9     &kp N0                     &kp LS(AMPS)    &kp LS(STAR)          &kp LS(TILDE)      &kp LS(DQT)       &kp LS(PIPE)  
+ &kp LS(PLUS)  &kp N7  &kp N8  &kp N9     &kp N0                     &kp LS(AMPS)    &kp LS(STAR)          &kp SQT            &kp LS(LPAR)      &kp LS(RPAR)  
  &kp LS(PLUS)  &kp N4  &kp N5  &kp N6     &kp MINUS                  &kp LS(DLLR)    &kp LS(PRCNT)         &kp LS(CARET)      &kp LS(LBRC)      &kp LS(RBRC)     
  &kp EQUAL     &kp N1  &kp N2  &kp N3     &kp DOT                    &kp LS(EXCL)    &mt LS(RGUI) AT_SIGN  &mt LS(RALT) HASH  &mt RSHIFT LBKT   &mt RCTRL RBKT  
             >;
@@ -212,9 +212,9 @@
         gaming_layer {
             display-name = "Gaming";
             bindings = <
- &kp ESC   &kp TAB   &kp LANGUAGE_2   &kp UP     &kp LANGUAGE_1                  &trans   &trans  &trans  &trans  &kp PRINTSCREEN
- &kp DEL   &trans    &kp BSPC         &kp LEFT   &kp RIGHT                       &kp A    &kp A   &kp A   &kp A   &trans 
- &kp CLCK  &trans    &kp TAB          &kp DOWN   &kp SPACE                       &trans   &trans  &trans  &trans  &trans 
+ &kp ESC   &kp TAB   &kp LANGUAGE_2   &kp UP     &kp LANGUAGE_1                  &kp GRAVE      &kp LS(PIPE)    &kp BSLH        &trans  &trans
+ &kp DEL   &trans    &kp BSPC         &kp LEFT   &kp RIGHT                       &kp LS(PLUS)   &kp LS(TILDE)   &kp LS(UNDER)   &trans  &trans 
+ &kp CLCK  &trans    &kp TAB          &kp DOWN   &kp SPACE                       &kp LS(COLON)  &kp LS(DQT)     &trans          &trans  &trans 
             >;
         };
 
@@ -230,9 +230,9 @@
         number_layer {
             display-name = "Number";
             bindings = <
-&kp EXCL   &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                      &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 
-&kp N1     &kp N2  &kp N3    &kp N4    &kp A                          &kp A          &kp N7          &kp N8        &kp N9        &bt BT_CLR_ALL
-&kp LSHFT  &none   &none     &none     &bootloader                    &bootloader    &none           &kp COMMA     &kp DOT       &studio_unlock
+&kp EXCL   &kp AT  &kp HASH  &kp DLLR      &kp PRCNT                      &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 
+&kp N1     &kp N2  &kp N3    &kp N4        &kp A                          &kp A          &kp N7          &kp N8        &kp N9        &bt BT_CLR_ALL
+&kp LSHFT  &none   &none     &kp C_POWER   &bootloader                    &bootloader    &kp C_SLEEP     &kp COMMA     &kp DOT       &studio_unlock
             >;
         };
 
