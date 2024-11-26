@@ -194,9 +194,9 @@
         mac_default_layer {
             display-name = "Mac";
             bindings = <
- &lt 3 Q      &kp W        &kp E           &mt LANGUAGE_2 R    &mt LANGUAGE_1 T                           &kp Y   &kp U         &kp I               &kp O              &lt 3 P          
- &lt 1 A      &lt 2 S      &mt SPACE D     &mt ENTER F         &kp G                                      &kp H   &mt MINUS J   &kp K               &lt 2 L            &lt 1 SEMICOLON 
- &mt LCTRL Z  &mt LSHFT X  &mt LEFT_ALT C  &mt LEFT_GUI V      &kp B                                      &kp N   &kp M         &mt LEFT_ALT COMMA  &mt RSHIFT PERIOD  &mt RCTRL SLASH  
+ &lt 3 Q      &kp W        &kp E            &kp R            &kp T                                      &kp Y          &kp U              &kp I               &kp O              &lt 3 P          
+ &lt 1 A      &lt 2 S      &mt SPACE D      &mt ENTER F      &kp G                                      &mt MINUS H    &mt LANGUAGE_1 J   &mt LANGUAGE_2 K    &lt 2 L            &lt 1 SEMICOLON 
+ &mt LCTRL Z  &mt LSHFT X  &mt LEFT_ALT C   &mt LEFT_GUI V   &kp B                                      &kp N          &kp M              &mt LEFT_ALT COMMA  &mt RSHIFT PERIOD  &mt RCTRL SLASH  
             >;
         };
 
