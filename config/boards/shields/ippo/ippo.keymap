@@ -179,12 +179,12 @@
 
         tabL {
             bindings = <&kp LC(LS(TAB))>;
-            key-positions = <1 2>;
+            key-positions = <20 21>;
         };
 
         tabR {
             bindings = <&kp LC(TAB)>;
-            key-positions = <3 4>;
+            key-positions = <21 22>;
         };
     };
     
