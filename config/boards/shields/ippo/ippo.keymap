@@ -212,9 +212,9 @@
         gaming_layer {
             display-name = "Gaming";
             bindings = <
- &kp ESC   &kp TAB   &kp LANGUAGE_2   &kp UP     &kp LANGUAGE_1                  &kp GRAVE      &kp LS(PIPE)    &kp BSLH        &kp BSPC        &kp DEL
- &kp DEL   &trans    &kp BSPC         &kp LEFT   &kp RIGHT                       &kp LS(PLUS)   &kp LS(TILDE)   &kp LS(UNDER)   &kp SPACE       &kp ENTER 
- &kp CLCK  &trans    &kp TAB          &kp DOWN   &kp SPACE                       &kp LS(COLON)  &kp LS(DQT)     &trans          &kp LANGUAGE_2  &kp LANGUAGE_1
+ &kp ESC   &kp TAB   &kp LANGUAGE_2   &kp UP     &kp LANGUAGE_1                  &kp GRAVE      &kp LS(PIPE)    &kp BSLH            &kp BSPC               &kp DEL
+ &kp DEL   &trans    &kp BSPC         &kp LEFT   &kp RIGHT                       &kp LS(PLUS)   &kp LS(TILDE)   &kp LS(UNDER)       &kp SPACE              &kp ENTER 
+ &kp CLCK  &trans    &kp TAB          &kp DOWN   &kp SPACE                       &kp LS(COLON)  &kp LS(DQT)     &mt LEFT_ALT COMMA  &mt RSHIFT LANGUAGE_2  &mt RCTRL LANGUAGE_1
             >;
         };
 
