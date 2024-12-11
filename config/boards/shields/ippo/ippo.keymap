@@ -16,8 +16,7 @@
 };
 
 
-
-
+/ { 
     behaviors {
         bm: bottom_row_mods {
             compatible = "zmk,behavior-hold-tap";
