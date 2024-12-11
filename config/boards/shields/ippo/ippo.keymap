@@ -2,12 +2,12 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-#define MAC 0
-#define WINDOWS 1
-#define GAME 2
-#define CODE 3
-#define NUMBER 4
-#define FUNCTION 5
+#define ZERO 0
+#define ICHI 1
+#define NI 2
+#define SAN 3
+#define SI 4
+#define GO 5
 
 // Behavior Overrides
 &lt {
@@ -150,8 +150,8 @@
     keymap {
         compatible = "zmk,keymap";
 
-        mac_default_layer {
-            display-name = "Mac";
+        zero_default_layer {
+            display-name = "Zero";
             bindings = <
  &lt 3 Q      &kp W        &kp E            &kp R            &kp T                                      &kp Y          &kp U              &kp I               &kp O              &lt 3 P          
  &lt 1 A      &lt 2 S      &mt SPACE D      &kp F            &kp G                                      &mt MINUS H    &mt LANGUAGE_1 J   &mt LANGUAGE_2 K    &lt 2 L            &lt 1 SEMICOLON 
@@ -159,8 +159,8 @@
             >;
         };
 
-        windows_default_layer {
-            display-name = "Windows";
+        ichi_default_layer {
+            display-name = "Ichi";
             bindings = <
  &kp LS(PLUS)  &kp N7  &kp N8  &kp N9     &kp N0                     &kp LS(AMPS)    &kp LS(STAR)          &kp SQT            &kp LS(LPAR)      &kp LS(RPAR)  
  &kp LS(PLUS)  &kp N4  &kp N5  &kp N6     &kp MINUS                  &kp LS(DLLR)    &kp LS(PRCNT)         &kp LS(CARET)      &kp LS(LBRC)      &kp LS(RBRC)     
@@ -168,8 +168,8 @@
             >;
         };
 
-        gaming_layer {
-            display-name = "Gaming";
+        ni_layer {
+            display-name = "Ni";
             bindings = <
  &kp ESC   &kp TAB   &kp LANGUAGE_2   &kp UP     &kp LANGUAGE_1                  &kp GRAVE      &kp LS(PIPE)    &kp BSLH            &kp BSPC               &kp DEL
  &kp DEL   &trans    &kp BSPC         &kp LEFT   &kp RIGHT                       &kp LS(PLUS)   &kp LS(TILDE)   &kp LS(UNDER)       &kp SPACE              &kp ENTER 
@@ -177,8 +177,8 @@
             >;
         };
 
-        code_layer {
-            display-name = "Code";
+        san_layer {
+            display-name = "San";
             bindings = <
  &trans   &kp LS(LG(LEFT))    &kp LA(I)   &kp HOME  &kp PAGE_UP                &trans  &trans  &trans  &trans  &kp PRINTSCREEN
  &trans   &kp LC(LS(COMMA))   &kp DOWN    &kp END   &kp PAGE_DOWN              &trans  &trans  &trans  &trans  &trans
@@ -186,8 +186,8 @@
             >;
         };
 
-        number_layer {
-            display-name = "Number";
+        si_layer {
+            display-name = "Si";
             bindings = <
 &kp EXCL   &kp AT  &kp HASH  &kp DLLR      &kp PRCNT                      &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 
 &kp N1     &kp N2  &kp N3    &kp N4        &kp A                          &kp A          &kp N7          &kp N8        &bt BT_CLR    &bt BT_CLR_ALL
