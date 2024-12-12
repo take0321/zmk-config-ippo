@@ -135,6 +135,11 @@
             bindings = <&kp MINUS>;
             key-positions = <8 9>;
         };
+
+         layer5 {
+            bindings = <&tog 5>;
+            key-positions = <24 25>;
+        };
     };
     
     keymap {
@@ -143,47 +148,56 @@
         zero_default_layer {
             display-name = "Zero";
             bindings = <
- &lt 3 Q      &kp W        &kp E            &kp R            &kp T                                      &mt LANGUAGE_1 Y   &mt LANGUAGE_2 U   &kp I               &kp O              &lt 3 P          
- &lt 1 A      &lt 2 S      &kp D            &mt SPACE F      &kp G                                      &mt MINUS H        &mt SPACE J        &kp K               &lt 2 L            &lt 1 SEMICOLON 
- &mt LCTRL Z  &mt LSHFT X  &mt LEFT_ALT C   &mt LEFT_GUI V   &kp B                                      &kp N              &kp M              &mt LEFT_ALT COMMA  &mt RSHIFT PERIOD  &mt RCTRL SLASH  
+ &lt 3 Q      &kp W        &kp E            &kp R            &kp T                        &mt LANGUAGE_1 Y   &mt LANGUAGE_2 U   &kp I               &kp O              &lt 3 P          
+ &lt 1 A      &lt 2 S      &kp D            &mt SPACE F      &kp G                        &mt MINUS H        &mt SPACE J        &kp K               &lt 2 L            &lt 1 SEMICOLON 
+ &mt LCTRL Z  &mt LSHFT X  &mt LEFT_ALT C   &mt LEFT_GUI V   &kp B                        &kp N              &kp M              &mt LEFT_ALT COMMA  &mt RSHIFT PERIOD  &mt RCTRL SLASH  
             >;
         };
 
         ichi_default_layer {
             display-name = "Ichi";
             bindings = <
- &kp LS(PLUS)  &kp N7  &kp N8  &kp N9     &kp N0                     &kp LS(AMPS)    &kp LS(STAR)          &kp SQT            &kp LS(LPAR)      &kp LS(RPAR)  
- &kp LS(PLUS)  &kp N4  &kp N5  &kp N6     &kp MINUS                  &kp LS(DLLR)    &kp LS(PRCNT)         &kp LS(CARET)      &kp LS(LBRC)      &kp LS(RBRC)     
- &kp EQUAL     &kp N1  &kp N2  &kp N3     &kp DOT                    &kp LS(EXCL)    &mt LS(RGUI) AT_SIGN  &mt LS(RALT) HASH  &mt RSHIFT LBKT   &mt RCTRL RBKT  
+ &kp LS(PLUS)  &kp N7  &kp N8  &kp N9     &kp N0                                           &kp LS(AMPS)    &kp LS(STAR)          &kp SQT            &kp LS(LPAR)      &kp LS(RPAR)  
+ &kp LS(PLUS)  &kp N4  &kp N5  &kp N6     &kp MINUS                                        &kp LS(DLLR)    &kp LS(PRCNT)         &kp LS(CARET)      &kp LS(LBRC)      &kp LS(RBRC)     
+ &kp EQUAL     &kp N1  &kp N2  &kp N3     &kp DOT                                          &kp LS(EXCL)    &mt LS(RGUI) AT_SIGN  &mt LS(RALT) HASH  &mt RSHIFT LBKT   &mt RCTRL RBKT  
             >;
         };
 
         ni_layer {
             display-name = "Ni";
             bindings = <
- &kp ESC   &kp TAB           &kp LANGUAGE_2   &kp UP     &kp LANGUAGE_1                  &kp GRAVE      &kp LS(PIPE)    &kp BSLH            &kp BSPC               &kp DEL
- &kp DEL   &trans            &kp BSPC         &kp LEFT   &kp RIGHT                       &kp LS(PLUS)   &kp LS(TILDE)   &kp LS(UNDER)       &kp SPACE              &kp ENTER 
- &kp CLCK  &kp LC(LS(TAB))   &kp LC(TAB)      &kp DOWN   &kp SPACE                       &kp LS(COLON)  &kp LS(DQT)     &mt LEFT_ALT COMMA  &mt RSHIFT LANGUAGE_2  &mt RCTRL LANGUAGE_1
+ &kp ESC   &kp TAB           &kp LANGUAGE_2   &kp UP     &kp LANGUAGE_1                    &kp GRAVE      &kp LS(PIPE)    &kp BSLH            &kp BSPC               &kp DEL
+ &kp DEL   &trans            &kp BSPC         &kp LEFT   &kp RIGHT                         &kp LS(PLUS)   &kp LS(TILDE)   &kp LS(UNDER)       &kp SPACE              &kp ENTER 
+ &kp CLCK  &kp LC(LS(TAB))   &kp TAB          &kp DOWN   &kp SPACE                         &kp LS(COLON)  &kp LS(DQT)     &mt LEFT_ALT COMMA  &mt RSHIFT LANGUAGE_2  &mt RCTRL LANGUAGE_1
             >;
         };
 
         san_layer {
             display-name = "San";
             bindings = <
- &trans   &kp LS(LG(LEFT))    &kp LA(I)   &kp HOME  &kp PAGE_UP                &trans  &trans  &trans  &trans  &kp PRINTSCREEN
- &trans   &kp LC(LS(COMMA))   &kp DOWN    &kp END   &kp PAGE_DOWN              &trans  &trans  &trans  &trans  &trans
- &mo 4    &trans              &trans      &trans    &trans                     &trans  &trans  &trans  &trans  &mo 4 
+ &trans   &kp LS(LG(LEFT))    &kp LA(I)    &kp HOME  &kp PAGE_UP                           &trans  &trans  &trans  &trans  &kp PRINTSCREEN
+ &trans   &kp LC(LS(COMMA))   &kp DOWN     &kp END   &kp PAGE_DOWN                         &trans  &trans  &trans  &trans  &trans
+ &mo 4    &kp LC(LS(TAB))     &kp LC(TAB)  &trans    &trans                                &trans  &trans  &trans  &trans  &mo 4 
             >;
         };
 
         si_layer {
             display-name = "Si";
             bindings = <
-&kp EXCL   &kp AT  &kp HASH  &kp DLLR      &kp PRCNT                      &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 
-&kp N1     &kp N2  &kp N3    &kp N4        &kp A                          &kp A          &kp N7          &kp N8        &bt BT_CLR    &bt BT_CLR_ALL
-&kp LSHFT  &none   &none     &kp C_POWER   &bootloader                    &bootloader    &kp C_SLEEP     &kp COMMA     &kp DOT       &studio_unlock
+&kp EXCL   &kp AT  &kp HASH  &kp DLLR      &kp PRCNT                                        &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 
+&kp N1     &kp N2  &kp N3    &kp N4        &kp A                                            &kp A          &kp N7          &kp N8        &bt BT_CLR    &bt BT_CLR_ALL
+&kp LSHFT  &none   &none     &kp C_POWER   &bootloader                                      &bootloader    &kp C_SLEEP     &kp COMMA     &kp DOT       &studio_unlock
             >;
         };
 
+        
+        go_layer {
+            display-name = "Go";
+            bindings = <
+&kp EXCL   &kp AT  &kp HASH  &kp DLLR      &kp PRCNT                                        &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 
+&kp N1     &kp N2  &kp N3    &kp N4        &kp A                                            &kp A          &kp N7          &kp N8        &bt BT_CLR    &bt BT_CLR_ALL
+&kp LSHFT  &none   &none     &kp C_POWER   &bootloader                                      &bootloader    &kp C_SLEEP     &kp COMMA     &kp DOT       &studio_unlock
+            >;
+        };
     };
 };
