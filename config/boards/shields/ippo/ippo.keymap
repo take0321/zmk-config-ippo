@@ -18,6 +18,20 @@
 
 / { 
     behaviors {
+        td0: td0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD0";
+            #binding-cells = <0>;
+            bindings = <&kp A>, <&kp B>;
+        };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-tap-dance";
+            label = "NEW_BEHAVIOR";
+            #binding-cells = <0>;
+            bindings = <&kp C>, <&kp D>;
+        };
+    
         bm: bottom_row_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
