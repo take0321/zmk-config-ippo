@@ -22,14 +22,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD0";
             #binding-cells = <0>;
-            bindings = <&kp A>, <&kp B>;
-        };
-
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-tap-dance";
-            label = "NEW_BEHAVIOR";
-            #binding-cells = <0>;
-            bindings = <&kp C>, <&kp D>;
+            bindings = <&kp D>, <&kp ENTER>;
         };
     
         bm: bottom_row_mods {
