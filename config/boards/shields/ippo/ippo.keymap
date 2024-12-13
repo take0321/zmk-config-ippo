@@ -16,14 +16,15 @@
 };
 
 
-/ { 
+/ {
     behaviors {
-        td0: td0 {
+        td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD0";
             #binding-cells = <0>;
-            bindings = <&kp D>, <&kp ENTER>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N1>, <&kp N2>, <&kp N3>;
         };
+    
     
         bm: bottom_row_mods {
             compatible = "zmk,behavior-hold-tap";
