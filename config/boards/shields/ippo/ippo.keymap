@@ -174,7 +174,7 @@
         ni_layer {
             display-name = "Ni";
             bindings = <
- &kp ESC     &kp TAB  &kp SPACE  &kp UP     &kp DEL                           &kp GRAVE      &kp LS(PIPE)    &kp BSLH            &kp BSPC               &kp DEL
+ &kp ESC     &kp TAB  &kp ENTER  &kp UP     &kp DEL                           &kp GRAVE      &kp LS(PIPE)    &kp BSLH            &kp BSPC               &kp DEL
  &kp ENTER   &trans   &kp BSPC   &kp LEFT   &kp RIGHT                         &kp LS(PLUS)   &kp LS(TILDE)   &kp LS(UNDER)       &kp SPACE              &kp ENTER 
  &kp CLCK    &td0     &kp TAB    &kp DOWN   &kp SPACE                         &kp LS(COLON)  &kp LS(DQT)     &mt LEFT_ALT COMMA  &mt RSHIFT LANGUAGE_2  &mt RCTRL LANGUAGE_1
             >;
@@ -202,9 +202,9 @@
         go_layer {
             display-name = "Go";
             bindings = <
-&kp EXCL   &kp AT  &kp HASH  &kp DLLR      &kp PRCNT                                        &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 
-&kp N1     &kp N2  &kp N3    &kp N4        &kp A                                            &kp A          &kp N7          &kp N8        &bt BT_CLR    &bt BT_CLR_ALL
-&kp LSHFT  &none   &none     &kp C_POWER   &bootloader                                      &bootloader    &kp C_SLEEP     &kp COMMA     &kp DOT       &studio_unlock
+ &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &trans    &trans
+ &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &kp UP    &trans
+ &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT 
             >;
         };
     };
