@@ -157,7 +157,7 @@
             bindings =
                 <&kp LC(LS(LEFT_BRACKET))>,
                 <&macro_wait_time 200>,
-                <&kp SPACE>,
+                <&kp RIGHT>,
                 <&macro_wait_time 200>,
                 <&kp LC(V)>;
 
