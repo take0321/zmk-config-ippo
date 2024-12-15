@@ -156,7 +156,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp LC(LS(LEFT_BRACKET))>,
-                <&macro_wait_time 300>,
+                <&macro_wait_time 500>,
                 <&kp LC(V)>;
 
             label = "MACRO1";
