@@ -155,8 +155,10 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp LC(LS(RIGHT_BRACKET))>,
-                <&macro_wait_time 500>,
+                <&kp LC(LS(LEFT_BRACKET))>,
+                <&macro_wait_time 200>,
+                <&kp SPACE>,
+                <&macro_wait_time 200>,
                 <&kp LC(V)>;
 
             label = "MACRO1";
