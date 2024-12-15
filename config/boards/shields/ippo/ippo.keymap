@@ -155,7 +155,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp LC(LS(LEFT_BRACKET))>,
+                <&kp LC(LS(RIGHT_BRACKET))>,
                 <&macro_wait_time 500>,
                 <&kp LC(V)>;
 
