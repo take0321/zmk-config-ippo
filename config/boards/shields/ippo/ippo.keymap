@@ -163,7 +163,7 @@
             bindings = <
  &kp ESC     &kp TAB  &kp ENTER  &kp UP     &kp DEL                           &kp GRAVE      &kp LS(PIPE)    &kp BSLH            &kp BSPC               &kp DEL
  &kp ENTER   &trans   &kp BSPC   &kp LEFT   &kp RIGHT                         &kp LS(PLUS)   &kp LS(TILDE)   &kp LS(UNDER)       &kp SPACE              &kp ENTER 
- &kp CLCK    &td0     &kp TAB    &kp DOWN   &kp SPACE                         &kp LS(COLON)  &kp LS(DQT)     &mt LEFT_ALT COMMA  &mt RSHIFT LANGUAGE_2  &mt RCTRL LANGUAGE_1
+ &kp CLCK    &td0     &kp TAB    &kp DOWN   &kp SPACE                         &kp LS(COLON)  &kp LS(DQT)     &mt LEFT_ALT COMMA  &mt RSHIFT LS(LEFT)    &mt RCTRL LS(RIGHT)
             >;
         };
 
