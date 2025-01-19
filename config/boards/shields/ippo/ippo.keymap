@@ -3,13 +3,13 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-#define 0 0
-#define 1 1
-#define 2 2
-#define 3 3
-#define 4 4
-#define 5 5
-#define 6 6
+#define ZERO 0
+#define ICHI 1
+#define NI 2
+#define SAN 3
+#define SI 4
+#define GO 5
+#define ROKU 6
 
 // Behavior Overrides
 
