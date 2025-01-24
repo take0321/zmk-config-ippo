@@ -148,7 +148,13 @@
         macro2: macro2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(B) &kp RIGHT &kp ENTER &kp LS(LG(LEFT))>;
+            bindings =
+                <&kp LG(B) &kp RIGHT>,
+                <&macro_wait_time 250>,
+                <&kp ENTER>,
+                <&macro_wait_time 300>,
+                <&kp LS(LG(LEFT))>;
+
             label = "MACRO2";
         };
     };
