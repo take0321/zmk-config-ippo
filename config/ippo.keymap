@@ -12,11 +12,6 @@
 
 // Behavior Overrides
 
-&lt {
-    tapping-term-ms = <200>;
-    flavor = "hold-preferred";
-};
-
 / {
     behaviors {
         td0: tap_dance_0 {
