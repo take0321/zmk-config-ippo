@@ -47,12 +47,12 @@
 
         f5 {
             bindings = <&kp F5>;
-            key-positions = <4 24>;
+            key-positions = <4 14>;
         };
 
         f6 {
             bindings = <&kp F6>;
-            key-positions = <5 25>;
+            key-positions = <5 15>;
         };
 
         f7 {
@@ -123,6 +123,11 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <10 11>;
+        };
+
+        f12 {
+            bindings = <&kp F12>;
+            key-positions = <1 21>;
         };
     };
 
