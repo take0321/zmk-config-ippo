@@ -129,33 +129,19 @@
             bindings = <&kp F12>;
             key-positions = <1 21>;
         };
+
+        everything {
+            bindings = <&evrything>;
+            key-positions = <15 25>;
+        };
     };
 
     macros {
-        macro1: macro1 {
+        evrything: evrything {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&kp LC(LS(LEFT_BRACKET))>,
-                <&macro_wait_time 200>,
-                <&kp RIGHT>,
-                <&macro_wait_time 200>,
-                <&kp LC(V)>;
-
-            label = "MACRO1";
-        };
-
-        macro2: macro2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&kp LG(B) &kp RIGHT>,
-                <&macro_wait_time 250>,
-                <&kp ENTER>,
-                <&macro_wait_time 300>,
-                <&kp LS(LG(LEFT))>;
-
-            label = "MACRO2";
+            bindings = <&kp LC(LS(LEFT_BRACKET)) &kp LC(V)>;
+            label = "EVRYTHING";
         };
     };
 
