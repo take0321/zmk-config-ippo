@@ -129,20 +129,6 @@
             bindings = <&kp F12>;
             key-positions = <1 21>;
         };
-
-        everything {
-            bindings = <&evrything>;
-            key-positions = <15 25>;
-        };
-    };
-
-    macros {
-        evrything: evrything {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LC(LS(LEFT_BRACKET)) &kp LC(V)>;
-            label = "EVRYTHING";
-        };
     };
 
     keymap {
