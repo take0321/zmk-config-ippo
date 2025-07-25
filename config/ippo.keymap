@@ -131,6 +131,16 @@
         };
     };
 
+    macros {
+        macro1: macro1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(LEFT_BRACKET))>, <&macro_press>, <&kp LC(V)>;
+
+            label = "MACRO1";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -166,7 +176,7 @@
             bindings = <
 &trans   &kp LS(LG(LEFT))   &kp LA(I)    &kp HOME  &kp PAGE_UP          &trans  &trans  &trans  &trans  &kp PRINTSCREEN
 &macro1  &kp LC(LS(COMMA))  &kp DOWN     &kp END   &kp PAGE_DOWN        &trans  &trans  &trans  &trans  &trans
-&mo 4    &kp LC(LS(TAB))    &kp LC(TAB)  &macro2   &trans               &trans  &trans  &trans  &trans  &mo 4
+&mo 4    &kp LC(LS(TAB))    &kp LC(TAB)  &macro1   &trans               &trans  &trans  &trans  &trans  &mo 4
             >;
         };
 
