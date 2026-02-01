@@ -1,0 +1,9 @@
+config SHIELD_IPPO_LEFT
+    def_bool $(shields_list_contains,ippo_left)
+
+config SHIELD_IPPO_RIGHT
+    def_bool $(shields_list_contains,ippo_right)
+    
+
+
+Copied from: zmk-config-ippo/config/boards/shields/ippo/Kconfig.shield at aaa · take0321/zmk-config-ippo - <https://github.com/take0321/zmk-config-ippo/blob/aaa/config/boards/shields/ippo/Kconfig.shield>
