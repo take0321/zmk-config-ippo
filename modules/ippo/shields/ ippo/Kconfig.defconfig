@@ -1,0 +1,19 @@
+if SHIELD_IPPO_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Ippo"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_IPPO_LEFT || SHIELD_IPPO_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
+
+
+Copied from: zmk-config-ippo/config/boards/shields/ippo/Kconfig.defconfig at aaa · take0321/zmk-config-ippo - <https://github.com/take0321/zmk-config-ippo/blob/aaa/config/boards/shields/ippo/Kconfig.defconfig>
