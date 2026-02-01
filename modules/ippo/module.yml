@@ -1,0 +1,4 @@
+name: ippo
+build:
+  settings:
+    shield_root: .
