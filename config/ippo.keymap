@@ -165,18 +165,18 @@
         layer_2 {
             display-name = "2";
             bindings = <
-&kp ESC   &kp TAB  &kp ENTER  &kp UP    &kp DEL          &kp GRAVE      &kp LS(PIPE)   &kp BSLH            &kp BSPC             &kp DEL
-&kp TAB   &trans   &kp BSPC   &kp LEFT  &kp RIGHT        &kp LS(PLUS)   &kp LS(TILDE)  &kp LS(UNDER)       &kp SPACE            &kp ENTER
-&kp CLCK  &td0     &kp TAB    &kp DOWN  &kp SPACE        &kp LS(COLON)  &kp LS(DQT)    &mt LEFT_ALT COMMA  &mt RSHIFT LS(LEFT)  &mt RCTRL LS(RIGHT)
+&kp ESC   &kp TAB  &kp ENTER  &kp UP    &kp DEL          &kp GRAVE     &kp LS(PIPE)    &kp BSLH         &kp BSPC             &kp DEL
+&kp TAB   &trans   &kp BSPC   &kp LEFT  &kp RIGHT        &kp LS(PLUS)  &kp UP          &kp LS(UNDER)    &kp SPACE            &kp ENTER
+&kp CLCK  &td0     &kp TAB    &kp DOWN  &kp SPACE        &kp LEFT      &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt RSHIFT LS(LEFT)  &mt RCTRL LS(RIGHT)
             >;
         };
 
         layer_3 {
             display-name = "3";
             bindings = <
-&trans   &kp LS(LG(LEFT))   &kp LA(I)    &kp HOME  &kp PAGE_UP          &trans  &trans  &trans  &trans  &kp PRINTSCREEN
-&macro1  &kp LC(LS(COMMA))  &kp DOWN     &kp END   &kp PAGE_DOWN        &trans  &trans  &trans  &trans  &trans
-&mo 4    &kp LC(LS(TAB))    &kp LC(TAB)  &macro1   &trans               &trans  &trans  &trans  &trans  &mo 4
+&trans   &kp LS(LG(LEFT))   &kp LA(I)    &kp HOME  &kp PAGE_UP          &trans         &trans       &trans         &trans  &kp PRINTSCREEN
+&macro1  &kp LC(LS(COMMA))  &kp DOWN     &kp END   &kp PAGE_DOWN        &kp RS(COLON)  &kp RS(DQT)  &kp RS(TILDE)  &trans  &trans
+&mo 4    &kp LC(LS(TAB))    &kp LC(TAB)  &macro1   &trans               &trans         &trans       &trans         &trans  &mo 4
             >;
         };
 
