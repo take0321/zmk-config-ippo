@@ -1,7 +1,7 @@
 if SHIELD_IPPO_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Ippo"
+    default "ippo"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
