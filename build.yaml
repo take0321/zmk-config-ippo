@@ -18,8 +18,8 @@
 #
 ---
 include:
-    - board: nice_nano
+    - board: nice_nano//zmk
       shield: ippo_left
       snippet: studio-rpc-usb-uart
-    - board: nice_nano
+    - board: nice_nano//zmk
       shield: ippo_right
