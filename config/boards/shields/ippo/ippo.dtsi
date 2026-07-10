@@ -8,6 +8,10 @@
 
     kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
+        // CONFIG_ZMK_SLEEP=y でディープスリープに入った後、キー押下で起床できる
+        // ようにする。これが無いとスリープ後は USB を挿すまで二度と起きない
+        // (2026-07-10 に実機で発生した「少し経つと完全に動かなくなる」の原因)。
+        wakeup-source;
         diode-direction = "col2row";
 
         row-gpios = <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
