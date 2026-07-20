@@ -2,16 +2,20 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: myzmk
+      url-base: https://github.com/tibiboard
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
+    # ちびボードアプリ対応化(2026-07-20): zmkfirmware本家から
+    # tibiboard/zmk-chibiboard フォークに差し替え。これでStudio編集サブシステム
+    # (コンボ/タップダンス/マクロ/タイミング/status)がファームに入る。
+    # コミットは実際にローカルでビルド確認したものにピン留め(chibiboard-v1.1タグの
+    # 1コミット先=タイミングサブシステム追加済み)。
     - name: zmk
-      remote: zmkfirmware
-      # mainブランチは開発中の先端で今後もコミットが積まれ続けるため、ブランチ名の
-      # ままだと次のビルドで別のコード(Bluetooth周りの未検証な変更を含むかもしれない)
-      # に勝手に切り替わってしまう。今動いている実機のビルドが使ったコミットに
-      # 固定し、意図しない変化を防ぐ(2026-07-09、BLE切断増加の報告を受けて)。
-      revision: 904c9aec8822d79149d42c8a9a77e8828eb08f5a
+      remote: myzmk
+      repo-path: zmk-chibiboard
+      revision: 9c98ed2b0ae00afb968158e9f919056cd0f70ca8
       import: app/west.yml
   self:
     path: config

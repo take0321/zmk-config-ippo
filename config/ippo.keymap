@@ -2,6 +2,11 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
+// ちびボードアプリ対応: コンボ/タップダンス/マクロの予備スロット一式
+// (IPPOは30キーでtibiboard30と同じ配列のため、spare_slots.dtsiのkey-positions
+// ダミー値(0〜29の範囲)はそのまま使える)
+#include "spare_slots.dtsi"
+
 #define ZERO 0
 #define ICHI 1
 #define NI 2
